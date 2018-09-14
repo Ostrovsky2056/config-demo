@@ -7,6 +7,12 @@
     <groupId>com.ostrovsky</groupId>
     <artifactId>config-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>config-server</module>
+        <module>config-client</module>
+    </modules>
 
     <name>config-demo</name>
     <description>Demo for springboot and springcloud</description>
